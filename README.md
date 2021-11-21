@@ -1,4 +1,4 @@
-**Cinema Service**
+🎥 **Cinema Service** 🎥
 -
 
 This is a simulation of the cinema service with the ability to create a hall, movies, sessions, tickets, users and their orders. The capabilities of the user are determined by his role(user, admin).
