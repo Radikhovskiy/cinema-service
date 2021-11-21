@@ -22,6 +22,7 @@ Typical queries:
 **Note:** Some post requests can only be thrown when you are authorized as an administrator and used to update or change the information in the database. Use a postman or its analogue for this purpose.
 
 **How to configure java code for your database?**
+- Fork repository
 - To get started, you need to replace the database data in the folder: src/main/resources/db.properties
 - If you are using a database other than mySql you need to change the dependency in the pom.xml file
 - Use tomcat or its analogues to run the application
