@@ -8,7 +8,8 @@ This is a simulation of the cinema service with the ability to create a hall, mo
 To test the site you can enter the account as a user 
 using the login: user@i.ua with the password: user123
 or as an administrator - admin@i.ua, admin123
-**link:** http://
+
+**link:** http://cinema-radik.herokuapp.com/login
 
 To go through the pages of the site you need to change the request address.
 
