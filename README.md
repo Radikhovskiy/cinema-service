@@ -22,7 +22,7 @@ List of endpoints::
 
 **Setup**
 - Fork repository
-- To get started, you need to replace the database data in the folder: src/main/resources/db.properties
+- Replace the database data in the folder: src/main/resources/db.properties
 - If you are using a database other than mySql you need to change the dependency in the pom.xml file
 - Use tomcat or its analogues to run the application
 
