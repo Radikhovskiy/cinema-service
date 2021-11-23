@@ -13,8 +13,8 @@ or as an administrator - admin@i.ua, admin123
 
 List of endpoints::
 
-- POST: /register, /login, /logout (all)
-- GET: /orders, /orders/complete, /shopping-carts/by-user (user), /cinema-halls, /cinema-halls, /movie-sessions, /movies, /movie-sessions/, available?movieId&date (user/admin) /users/by-email?email (admin)
+- POST: /register, /login (all)
+- GET: /orders, /orders/complete, /shopping-carts/by-user (user), /cinema-halls, /cinema-halls, /movie-sessions, /movies, /movie-sessions/, available?movieId&date, /logout (user/admin) /users/by-email?email (admin)
 - POST: /cinema-halls, /movie-sessions, /movies, /movie-sessions, /movie-sessions/{id}, /orders/complete (admin)
 - PUT: /shopping-carts/movie-sessions?movieSessionId (admin)
 
