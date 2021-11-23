@@ -11,18 +11,16 @@ or as an administrator - admin@i.ua, admin123
 
 **link:** http://cinema-radik.herokuapp.com/login
 
-To go through the pages of the site you need to change the request address.
+List of endpoints::
 
-Typical queries:
-
-- POST: /register, /login, /logout
-- GET: /cinema-halls, POST: /cinema-halls, /movie-sessions, /movies, /movie-sessions/available?movieId&date, /shopping-carts/by-user, /orders, /users/by-email?email
-- POST: /cinema-halls, /movie-sessions, /movies, /movie-sessions, /movie-sessions/{id}, /orders/complete
-- PUT: /shopping-carts/movie-sessions?movieSessionId
+- POST: /register, /login, /logout (all)
+- GET: /orders, /orders/complete, /shopping-carts/by-user (user), /cinema-halls, /cinema-halls, /movie-sessions, /movies, /movie-sessions/, available?movieId&date (user/admin) /users/by-email?email (admin)
+- POST: /cinema-halls, /movie-sessions, /movies, /movie-sessions, /movie-sessions/{id}, /orders/complete (admin)
+- PUT: /shopping-carts/movie-sessions?movieSessionId (admin)
 
 **Note:** Some post requests can only be thrown when you are authorized as an administrator and used to update or change the information in the database. Use a postman or its analogue for this purpose.
 
-**How to configure java code for your database?**
+**Setup**
 - Fork repository
 - To get started, you need to replace the database data in the folder: src/main/resources/db.properties
 - If you are using a database other than mySql you need to change the dependency in the pom.xml file
@@ -37,7 +35,6 @@ Typical queries:
 - Hibernate 
 - Servlet API
 - Maven
-- JSON
 - Tomcat
 
 **Recommended software**
